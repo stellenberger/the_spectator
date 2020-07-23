@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="navbar-container"
+  data-testid="navbar"
+>
+  <div
+    data-testid="navbarTitle"
+  >
+    The Spectator
+  </div>
+  This is the NavBar
+</div>
+`;

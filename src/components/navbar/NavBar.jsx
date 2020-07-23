@@ -7,7 +7,6 @@ const NavBar = () => {
       <div data-testid='navbarTitle'>
         The Spectator
       </div> 
-      This is the NavBar
     </div>
   )
 }

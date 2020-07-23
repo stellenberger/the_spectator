@@ -1,10 +1,14 @@
 import React from 'react'
+import './Landing.css'
+import { LeftColumn, CenterColumn, RightColumn } from '../index'
 
 const Landing = () => {
 
   return (
-    <div>
-      hello world
+    <div className='landing-container'>
+      <LeftColumn />
+      <CenterColumn />
+      <RightColumn />
     </div>
   )
 }

@@ -1,0 +1,14 @@
+.left-column-container {
+  width: 30%;
+  background-color: blue;
+}
+
+.center-column-container {
+  width: 40%;
+  background-color: green;
+}
+
+.right-column-container {
+  width: 30%;
+  background-color: yellow;
+}
