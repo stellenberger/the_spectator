@@ -1,14 +1,16 @@
 .left-column-container {
-  width: 30%;
+  width: 27%;
   background-color: blue;
+  border-right: solid black 1px
 }
 
 .center-column-container {
-  width: 40%;
+  width: 46%;
   background-color: green;
 }
 
 .right-column-container {
-  width: 30%;
+  width: 27%;
   background-color: yellow;
+  border-left: solid black 1px
 }
