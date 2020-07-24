@@ -18,3 +18,23 @@
   color: red;
   text-align: left;
 }
+
+.center-news-card-container {
+  border-bottom: 1px solid LightGray;
+  width: 90%;
+  margin: auto;
+}
+
+.center-news-card-container img {
+  width: 100%;
+  height: auto;
+}
+
+.center-news-card-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.center-news-card-container p {
+  color: red;
+}

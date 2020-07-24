@@ -10,7 +10,15 @@ const Landing = () => {
     axios.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=" + process.env.REACT_APP_API_KEY)
       .then(response => {
         console.log('Successful response', response)
-        setNews(response.data.articles)
+        const newsArticles = response.data.articles.filter(article => {
+          if (article.author === null) {
+            return 
+          } else if (article.author === "") {
+            return 
+          }
+          return article
+        })
+        setNews(newsArticles)
       })
       .catch(error => {
         console.log('There was an error processing this request', error)

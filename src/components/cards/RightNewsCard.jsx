@@ -1,10 +1,10 @@
 import React from 'react'
 import './NewsCards.css'
 
-const LeftNewsCard = ({newsArticle}) => {
+const RightNewsCard = ({newsArticle}) => {
   console.log(newsArticle)
   return (
-    <div className='left-news-card-container'>
+    <div className='right-news-card-container'>
       <a href={newsArticle.url}>
         <p><i>{newsArticle.author}</i></p>
         <h3>{newsArticle.title}</h3>
@@ -17,4 +17,4 @@ const LeftNewsCard = ({newsArticle}) => {
   )
 }
 
-export default LeftNewsCard
+export default RightNewsCard

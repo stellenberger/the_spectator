@@ -1,12 +1,12 @@
 import React from 'react'
 import './NewsCards.css'
 
-const LeftNewsCard = ({newsArticle}) => {
+const CenterNewsCard = ({newsArticle}) => {
   console.log(newsArticle)
   return (
-    <div className='left-news-card-container'>
+    <div className='center-news-card-container'>
       <a href={newsArticle.url}>
-        <p><i>{newsArticle.author}</i></p>
+        {newsArticle.author}
         <h3>{newsArticle.title}</h3>
         <img 
           src={newsArticle.urlToImage} 
@@ -17,4 +17,4 @@ const LeftNewsCard = ({newsArticle}) => {
   )
 }
 
-export default LeftNewsCard
+export default CenterNewsCard
