@@ -1,4 +1,23 @@
 .navbar-container {
-  background-color: gray;
-  height: 180px;
+  margin: auto;
+  background-color: white;
+  height: 160px;
+  border-bottom: 1px solid gray
+}
+.navbar-title {
+  margin-top: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.navbar-links {
+  margin: auto;
+  text-align: center;
+  padding-top: 60px
+}
+
+.navbar-links a {
+  padding: 30px;
+  color: black;
+  text-decoration: none;
 }
