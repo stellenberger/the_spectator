@@ -7,7 +7,9 @@ const RightNewsCard = ({newsArticle}) => {
     <div className='right-news-card-container'>
       <a href={newsArticle.url}>
         <p><i>{newsArticle.author}</i></p>
-        <h4>{newsArticle.title}</h4>
+        <div className="card-content">
+          <h4>{newsArticle.title}</h4>
+        </div>
       </a>
     </div>
   )

@@ -20,7 +20,14 @@
 }
 
 .navbar-links a {
-  padding: 20px;
+  padding: 0 20px 0 20px;
   color: black;
   text-decoration: none;
+  border-right: 1px solid rgba(38,34,34,.15);
 }
+
+.navbar-links a:hover {
+  color: #d30d1d
+}
+
+
