@@ -9,6 +9,15 @@
 
 .right-column-container {
   width: 27%;
-  background-color: yellow;
   border-left: solid lightgray 1px
+}
+
+.right-column-header {
+  text-align: left;
+  margin: auto;
+  width: 90%;
+}
+
+.right-column-header-title {
+  color: red;
 }

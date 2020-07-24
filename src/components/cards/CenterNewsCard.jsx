@@ -6,7 +6,7 @@ const CenterNewsCard = ({newsArticle}) => {
   return (
     <div className='center-news-card-container'>
       <a href={newsArticle.url}>
-        {newsArticle.author}
+        <p><i>{newsArticle.author}</i></p>
         <h3>{newsArticle.title}</h3>
         <img 
           src={newsArticle.urlToImage} 

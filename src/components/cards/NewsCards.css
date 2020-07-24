@@ -38,3 +38,20 @@
 .center-news-card-container p {
   color: red;
 }
+
+.right-news-card-container {
+  border-bottom: 1px solid LightGray;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+.right-news-card-container p {
+  color: red;
+  font-size: 13px;
+}
+
+.right-news-card-container a {
+  text-decoration: none;
+  color: black;
+}
