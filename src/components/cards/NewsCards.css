@@ -1,0 +1,20 @@
+.left-news-card-container {
+  border-bottom: 1px solid black;
+  width: 90%
+}
+
+.left-news-card-container img {
+  width: 100%;
+  height: auto;
+}
+
+.left-news-card-container a {
+  text-decoration: none;
+  color: black;
+  text-align: left;
+}
+
+.left-news-card-container p {
+  color: red;
+  text-align: left;
+}

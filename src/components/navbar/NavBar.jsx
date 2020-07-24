@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <div data-testid='navbar' className='navbar-container'>
       <div data-testid='navbar-title' className='navbar-title'>
-        <h1>The Spectator</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/The_Spectator_logo.svg" alt=""/>
       </div> 
       <div className='navbar-links'>
         {navbarLinks.map((navbarLink) => {
